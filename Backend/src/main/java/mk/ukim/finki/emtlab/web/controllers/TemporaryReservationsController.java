@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/temporary-reservations")
+@RequestMapping("/temporary-reservations")
 @Tag(name = "Temporary Reservations API", description = "Endpoints for managing the temporary reservations")
 public class TemporaryReservationsController {
 

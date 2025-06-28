@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/countries")
+@RequestMapping("/countries")
 @Tag(name = "Country API", description = "Endpoints for managing host countries")
 public class CountryController {
 

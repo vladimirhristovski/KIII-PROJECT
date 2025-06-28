@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/hosts")
+@RequestMapping("/hosts")
 @Tag(name = "Host API", description = "Endpoints for managing accommodation hosts")
 public class HostController {
 
